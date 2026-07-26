@@ -1,6 +1,5 @@
 import {defineArrayMember, defineField, defineType} from 'sanity'
 
-// TODO: pin as a singleton in sanity.config.ts / desk structure (one document, no "create new").
 export const siteSettings = defineType({
   name: 'siteSettings',
   title: 'Site settings',
