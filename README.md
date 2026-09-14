@@ -1,9 +1,21 @@
-# Sanity Clean Content Studio
+# Omnia Physical Therapy — Sanity Studio
 
-Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
+Content Studio backing the Omnia Physical Therapy site. Split out from the
+front-end so editors get a stable Studio deploy independent of site releases.
 
-Now you can do the following things:
+**Front-end:** `toryradtke-star/omnia-pt-web` · **Live site:** https://omniatherapies.com
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the Sanity community](https://www.sanity.io/community/join?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+## Stack
+
+Sanity 5 · React 19 · TypeScript · styled-components
+
+## Running it
+
+```bash
+npm install
+npm run dev     # Studio at http://localhost:3333
+```
+
+The Studio `appId` and Sanity version are pinned deliberately — an unpinned
+Studio picks up upstream changes on redeploy, which is the wrong tradeoff for a
+client-facing editing surface.
