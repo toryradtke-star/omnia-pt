@@ -189,7 +189,7 @@ async function main() {
     phoneHref: '+12184990806',
     email: 'omniatherapies@gmail.com',
     fax: '(218) 282-5828',
-    addressLines: ['2121 E 5th St', 'Superior, WI 54880'],
+    addressLines: ['1308 Tower Ave', 'Superior, WI 54880'],
     serviceArea: 'Superior · Duluth · Virtual — MN & WI',
     copyrightLine: '© 2026 Omnia Wellness & Recovery',
   }
@@ -481,7 +481,7 @@ async function main() {
       "Questions, insurance, or ready to book — we'd love to hear from you. The fastest way to get started is to schedule an appointment.",
     ]),
     clinicName: 'Omnia Wellness & Recovery',
-    addressLines: ['2121 E 5th St', 'Superior, WI 54880'],
+    addressLines: ['1308 Tower Ave', 'Superior, WI 54880'],
     phone: '(218) 499-0806',
     fax: '(218) 282-5828',
     email: 'omniatherapies@gmail.com',
@@ -495,7 +495,7 @@ async function main() {
     ],
     servingArea: 'Superior · Duluth · greater MN & WI',
     mapEmbedUrl:
-      'https://www.google.com/maps?q=2121%20E%205th%20St,%20Superior,%20WI%2054880&output=embed',
+      'https://www.google.com/maps?q=1308%20Tower%20Ave,%20Superior,%20WI%2054880&output=embed',
     formNote: 'Prefer to talk? Call us at (218) 499-0806 — Mon–Fri.',
   }
 
